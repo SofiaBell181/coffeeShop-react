@@ -1,0 +1,350 @@
+
+.app {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    transition: .4s linear;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.navbar.fixed {
+    transition:  .4s linear;
+    background-color: #ffffff;  
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 9%); 
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 50px 0 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #0f0f0f;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.main-bg {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.main-bg img {
+   width: 100%;
+   top: 10px;
+   right: -180px;
+   position: relative;
+    z-index: -1;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 250px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: .3rem;
+    width: 400px;
+    line-height: 3rem;
+}
+
+.shoppingСart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.shoppingСart span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.nav div {
+    flex: 1;
+}
+
+.btn-cart {
+    background-image: url('../images/bascet.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    width: 26px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.shoppingСart img {
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
+
+.btn-shop {
+    background: #202020;
+    font-size: 18px;
+    letter-spacing: .085em;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 300;
+    transition: .2s;
+}
+
+.btn-shop:hover, .btn-buy:hover {
+    background: #0e0e0e;
+}
+
+.image-coffee {
+    width: 200px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 360px;
+    background: #fbfbfb;
+    margin: 0 20px 20px 20px;
+    padding: 30px 30px;
+    transition: all .1s linear;
+}
+
+h2 {
+    font-size: 20px;
+    color: #000;
+}
+
+.par-discription {
+    font-size: 15px;
+    letter-spacing: 0.01rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #4a4a4a;
+    font-size: 13px;
+}
+
+.card:hover {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;}
+
+.cardBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    max-width: 1360px;
+}
+
+.cardBox-l {
+    padding-left: 20px;
+}
+
+.cardBox-r {
+    padding-right: 20px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.weight {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.btn-buy img {
+    margin-right: 5px;
+}
+
+.btn-buy {
+    border: 1px solid #202020;
+    background-color: #202020;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-position: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+.count {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.count_min, .count_plus {
+    display: inline-block;
+    padding: 0 12px 0 12px;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+
+}
+
+.block-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: -150px;
+}
+
+
+.filterBtn {
+    border: 1px solid #b0b0b0;
+    border-radius: 152px;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 15px 25px;
+    margin: 5px 15px;
+    color: #202020;
+    background-color: transparent;
+    transition: .5s;
+  }
+  
+  .filterBtn:hover {
+    background: #cfcfcf;
+  }
+  
+  .filterBtnSelected {
+    border: 1px solid #b0b0b0;
+    border-radius: 152px;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 15px 25px;
+    margin: 5px 15px;
+    color: #fff;
+    background-color: #202020;
+    border: 1px solid #202020;
+    transition: .5s;
+}
+
+.footer {
+    border-top: 0.5px solid #d6d6d6;
+
+}
+
+.footer__inner {
+    max-width: 1360px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.footer-menu li, .col-3 p, .col-3 a {
+    margin-bottom: 10px;
+}
+
+.footer-menu a, .col-3 p, .col-3 a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0f0f0f;
+}
+
+.footer__bottom p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color:rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.bottom-f {
+    background-color: #222020;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

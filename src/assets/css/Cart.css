@@ -1,0 +1,84 @@
+.block-cart {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    border: 1px solid #d8d8d8;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 320px;
+    top: 130px;
+    right: 10px;
+    z-index: 1000;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+
+.block-cart.show {
+    display: block;
+}
+
+.block-cart.close {
+    display: none;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(216, 216, 216, 0.762);
+}
+
+.cartItem img {
+    width: 100px;
+}
+
+.cart-name {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.cart-price {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+
+.cart-weight {
+    font-size: 13px;
+    color:#a7a7a7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-delete {
+    background-image: url('../images/bascet.png');
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cart-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
