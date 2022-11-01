@@ -53,7 +53,7 @@ function App() {
                            </div>
                             <div className='shoppingСart' onClick={clickHandlerCart}>
                                <button className='btn-cart'></button>
-                                <span>{totalCount == 1 ? totalCount + ' товар' : 
+                                <span>{totalCount === 1 ? totalCount + ' товар' : 
                                 totalCount > 1 && totalCount < 5 ? totalCount + ' товара' :
                                 totalCount + ' товаров'}</span>
                             </div>

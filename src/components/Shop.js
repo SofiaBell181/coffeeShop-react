@@ -2,7 +2,6 @@ import coffee from '../assets/images/cup-of-coffee.png';
 import AllCategories from '../Filter/AllCategories';
 import AllCoffee from '../Coffee/AllCoffee';
 import '../assets/css/Shop.css';
-import Cart from '../Cart/Cart';
 
 
 export default function Shop() {
@@ -22,11 +21,6 @@ export default function Shop() {
             <div className='cards'>
                 <AllCoffee />
             </div>
-
-           {/* <div >
-                <Cart />
-           </div> */}
-
         </>
     )
 }
