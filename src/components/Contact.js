@@ -17,18 +17,18 @@ export default function Contact() {
                 </div>
 
                 <div className='block-contact'>
-                    <div className='col'>
+                    <div className='contact'>
                         <p>ДЛЯ СВЯЗИ</p>
                         <a className='link-contact' href="tel:88006006344">+8 (800) 600-63-44</a>
                         <a className='link-contact' href="mailto:coffee@point.ru">coffee@point.ru</a>
                     </div>
 
-                    <div className='col'>
+                    <div className='contact'>
                         <p>АДРЕС ОФИСА</p>
                         <p>г. Москва, Шмитовский проезд, дом 40</p>
                     </div>
                 
-                    <div className='col'>
+                    <div className='contact'>
                         <p>СОТРУДНИЧЕСТВО</p>
                         <a className='link-contact' href="tel:88007005544">+8 (800) 700-55-44</a>
                     </div>

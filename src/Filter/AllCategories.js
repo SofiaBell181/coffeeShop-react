@@ -5,7 +5,7 @@ export default function AllCategories() {
    
     return(
         <>
-            <div className="block-btn">
+            <div className="block-btn container">
                 {["для эспрессо", "для фильтра", "для кофемашины", "для молочных напитков", "для турки", "все"]
                 .map((category, index) => 
                     <Filter key={index} category={category} />

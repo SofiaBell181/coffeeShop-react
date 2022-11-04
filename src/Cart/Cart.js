@@ -14,11 +14,11 @@ export default function Cart() {
 
     return(
         <>
-        <div className="">
-            <h3>Товары в корзине</h3>
-            {selectedCart.map((item, index) => <CartList key={index} cart={item} />)}
-            <h4>Всего: {total + ' ₽'} </h4>
-        </div>
+            <div>
+                <h3>Товары в корзине</h3>
+                {selectedCart.map((item, index) => <CartList key={index} cart={item} />)}
+                <h4>Всего: {total + ' ₽'} </h4>
+            </div>
         </>
     )
 }

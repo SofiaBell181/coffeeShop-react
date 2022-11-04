@@ -18,9 +18,8 @@ export default function Shop() {
 
             <AllCategories/>
 
-            <div className='cards'>
-                <AllCoffee />
-            </div>
+            <AllCoffee />
+     
         </>
     )
 }

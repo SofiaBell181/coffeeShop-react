@@ -12,18 +12,18 @@ export default function AllCoffee() {
 
     return(
         <>
-            <div className="cards">
+            <div className='cards container-xxl'>
                 {goods
-                .filter(item => {
-                    if (selectedCategory === 'все') return true;
-                    return selectedCategory === item.category;
-                })
-                .map((item, index) => 
-                    <Coffee item={item} key={item.id}/>
-                 )}
-                 
-            </div>                   
-           
+                    .filter(item => {
+                        if (selectedCategory === 'все') return true;
+                        return selectedCategory === item.category;
+                    })
+                    .map((item, index) => 
+                        <Coffee item={item} key={item.id}/>
+                    )}
+            </div>
+              
+                         
         </>
 
     )
